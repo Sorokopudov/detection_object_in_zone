@@ -22,10 +22,10 @@
 
 Запуск процесса обработки
 
-- Сборка и запуск образа:\
+- Сборка и запуск образа:
 
 docker build -t object_in_zone . \
-docker run -p 5000:5000 object_in_zone	\
+docker run -p 5000:5000 object_in_zone	
 
 Приложение будет доступно по адресу http://localhost:5000
 
