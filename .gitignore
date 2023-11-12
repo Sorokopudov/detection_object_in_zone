@@ -9,6 +9,7 @@
 !readme.txt
 !requirements.txt
 !utils.py
+!best_n_1280.pt
 
 # ...and not these directories
 !templates/*
