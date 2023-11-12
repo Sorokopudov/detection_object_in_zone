@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Processing</title>
+</head>
+<body>
+    <h1>Загрузка файлов</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label>Загрузите файл с координатами зон (архив в формате .zip):</label>
+        <input type="file" name="zone_file" accept=".zip" required><br><br>
+        <label>Загрузите файл с изображениями (архив в формате .zip):</label>
+        <input type="file" name="image_file" accept=".zip" required><br><br>
+        <input type="submit" value="Далее">
+    </form>
+</body>
+</html>

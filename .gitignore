@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!templates/
+!app.py
+!Dockerfile
+!readme.txt
+!requirements.txt
+!utils.py
+
+# ...and not these directories
+!templates/*
+
